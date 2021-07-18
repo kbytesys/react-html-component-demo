@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Webpack Component</title>
+    <!-- Load the polyfills -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/webcomponents-bundle.js"></script>
+    <script>
+      if (!window.customElements) {
+        document.write('<!--');
+      }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/2.4.3/custom-elements-es5-adapter.js"></script>
+    <!-- <script src="index.bundle.js"></script> -->
+</head>
+
+<body>
+<hello-world name="React Component"></hello-world>
+<hello-world-stylesheet name="React Component With External Stylesheet"></hello-world-stylesheet>
+<hello-world-styled name="React Styled Component "></hello-world-styled>
+</body>
+
+</html>

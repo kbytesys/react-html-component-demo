@@ -1,0 +1,24 @@
+{
+  "settings": {
+    "react": {
+      "version": "latest"
+    }
+  },
+  "globals": {
+    "customElements": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "semi": "error"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ]
+}
